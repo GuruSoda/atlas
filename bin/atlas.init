@@ -1,0 +1,85 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:			atlas
+# Required-Start:	$local_fs $remote_fs 
+# Required-Stop:	$local_fs $remote_fs
+# Default-Start:	2 3 4 5
+# Default-Stop:
+# Short-Description: inicia o detiene el demonio atlas
+# Description:		atlas web server
+### END INIT INFO
+
+NOMBRE=Atlas
+EJECUTABLE=atlas
+HOME=/opt/atlas
+PARAMETROS=
+PIDFILE=/var/run/AtlasSvc.pid
+MSG_CORRIENDO="El servidor HTTP Atlas ya se encuentra corriendo."
+
+. /lib/lsb/init-functions
+
+start() {
+	if [ -f $PIDFILE ];then
+		PID=`cat $PIDFILE`
+		if [ "$PID" != ""  ];then
+			REGPROG=`ps -eO pid | grep -v grep | grep $PID`
+			if [ "$REGPROG" != "" ];then
+				echo $MSG_CORRIENDO
+				return 1;
+			fi
+		fi
+	fi
+
+	cd $HOME
+
+	if [ -f bin/environment ]; then
+		. bin/environment
+	fi
+
+	$HOME/bin/$EJECUTABLE $PARAMETROS
+
+	if [ $? -ne 0 ]
+	then
+		echo "El servidor HTTP se ha iniciado con un codigo de error."
+	fi
+}
+
+stop() {
+	if [ -f $PIDFILE ];then
+		PID=`cat $PIDFILE`
+
+		if [ "$PID" != "" ]
+		then
+			kill $PID
+			rm -f $PIDFILE
+		else
+			echo "El demonio no se encuentra ejecutandose o no tiene un pid asociado."
+		fi
+	else
+		echo "El demonio no se encuentra ejecutandose o no tiene un pid asociado."
+	fi
+}
+
+restart(){
+        stop
+        start
+}
+
+case "$1" in
+  start)
+        start
+        ;;
+  stop)
+        stop
+        ;;
+  restart)
+        restart
+        ;;
+  *)
+        echo "Uso: $0 {start|stop|restart}"
+        exit 1
+esac
+
+exit 0
+

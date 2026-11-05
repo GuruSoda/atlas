@@ -1,0 +1,12 @@
+Package: atlas
+Priority: optional
+Section: misc
+Maintainer: Fabricio D. Rossi <fabricio.rossi@gmail.com>
+Architecture: i386
+Version: 1.7.0
+Depends:
+Description: Servidor HTTP.
+ Servidor multi-sitio, multi-host y multi-ports.
+ A partir de la version 1.7 permite crear paginas dinamicas con el lenguaje Teushen
+
+
