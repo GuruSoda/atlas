@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Librerias">
+      <UniqueIdentifier>{f651330c-0cfc-4ece-b9fe-420cc242d4a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\boost">
+      <UniqueIdentifier>{e74a2cc8-8bdf-465a-bebb-1a4ab1c31773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\boost\regex">
+      <UniqueIdentifier>{5627bf7b-7f4b-4701-bfd6-592f872cc467}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Librerias\polarssl">
+      <UniqueIdentifier>{67ef9128-ba1c-4b05-a7b2-7635042b3402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Librerias\GuruHttp">
+      <UniqueIdentifier>{dd55c1ed-cae3-4d3e-beaf-7c9fa3598f9b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\atlas\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\GuruConfigLeer.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\GuruConfigV2.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\GuruSvc.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\c_regex_traits.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\cpp_regex_traits.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\cregex.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\fileiter.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\icu.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\instances.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\posix_api.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex_debug.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex_raw_buffer.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex_traits_defaults.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\static_mutex.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\usinstances.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\w32_regex_traits.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\wc_regex_traits.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\wide_posix_api.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\winstances.cpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\sqlite\sqlite3.c">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\polarssl\library\md5.c">
+      <Filter>Source Files\Librerias\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\polarssl\library\sha1.c">
+      <Filter>Source Files\Librerias\polarssl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\polarssl\library\sha4.c">
+      <Filter>Source Files\Librerias\polarssl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Librerias\GuruConfigLeer.h">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruConfigV2.h">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruSvc.h">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\boost\libs\regex\src\internals.hpp">
+      <Filter>Source Files\boost\regex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp_algo.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig_algo.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpExcepcion.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpFunciones.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpInterface.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpLog.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest_algo.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpResponse.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpServidor.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSession.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSitioStats.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

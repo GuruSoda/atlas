@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FF071B26-5EB6-4B2B-8529-D862D4E583BE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>atlasteushen</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</OutDir>
+    <IntDir>$(SolutionDir)$(ProjectName)\$(Configuration)\$(PlatformTarget)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;GURUHTTP_VERSION="GuruHTTP/2.5";TEUSHEN_FULL;BOOST_ALL_NO_LIB</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Librerias;$(SolutionDir)..\..\..\..\Librerias\polarssl\include;$(SolutionDir)..\..\..\..\boost</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;advapi32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;GURUHTTP_VERSION="GuruHTTP/2.5";TEUSHEN_FULL;BOOST_ALL_NO_LIB</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Librerias;$(SolutionDir)..\..\..\..\Librerias\polarssl\include;$(SolutionDir)..\..\..\..\boost</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;advapi32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;GURUHTTP_VERSION="GuruHTTP/2.5";TEUSHEN_FULL;BOOST_ALL_NO_LIB</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Librerias;$(SolutionDir)..\..\..\..\Librerias\polarssl\include;$(SolutionDir)..\..\..\..\boost</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;advapi32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;GURUHTTP_VERSION="GuruHTTP/2.5";TEUSHEN_FULL;BOOST_ALL_NO_LIB</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\..\..\Librerias;$(SolutionDir)..\..\..\..\Librerias\polarssl\include;$(SolutionDir)..\..\..\..\boost</AdditionalIncludeDirectories>
+      <ShowIncludes>false</ShowIncludes>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Ws2_32.lib;advapi32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\cpp_regex_traits.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\cregex.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\c_regex_traits.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\fileiter.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\icu.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\instances.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\posix_api.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex_debug.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex_raw_buffer.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\regex_traits_defaults.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\static_mutex.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\usinstances.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\w32_regex_traits.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\wc_regex_traits.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\wide_posix_api.cpp" />
+    <ClCompile Include="..\..\..\..\boost\libs\regex\src\winstances.cpp" />
+    <ClCompile Include="..\..\..\..\Librerias\GuruConfigLeer.cpp" />
+    <ClCompile Include="..\..\..\..\Librerias\GuruConfigV2.cpp" />
+    <ClCompile Include="..\..\..\..\Librerias\GuruSvc.cpp" />
+    <ClCompile Include="..\..\..\..\Librerias\polarssl\library\md5.c" />
+    <ClCompile Include="..\..\..\..\Librerias\polarssl\library\sha1.c" />
+    <ClCompile Include="..\..\..\..\Librerias\polarssl\library\sha4.c" />
+    <ClCompile Include="..\..\..\..\Librerias\sqlite\sqlite3.c" />
+    <ClCompile Include="..\..\atlas\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\boost\libs\regex\src\internals.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruConfigLeer.h" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruConfigV2.h" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig_algo.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpExcepcion.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpFunciones.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpInterface.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpLog.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest_algo.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpResponse.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpServidor.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSession.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSitioStats.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp_algo.hpp" />
+    <ClInclude Include="..\..\..\..\Librerias\GuruSvc.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

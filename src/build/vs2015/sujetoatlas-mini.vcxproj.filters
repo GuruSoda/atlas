@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\jsoncpp">
+      <UniqueIdentifier>{03932f3f-f639-4163-bcf0-25f7f8f72417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuruHttp">
+      <UniqueIdentifier>{e1f2ee04-7093-4ae2-9295-b0611039db9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GuruSocket">
+      <UniqueIdentifier>{de17aa0c-a61f-49ba-9e43-6c73e9b6f6a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\SujetoAtlas-Mini\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\SujetoAtlas-Mini\SujetoAtlasMini.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\jsoncpp\jsoncpp.cpp">
+      <Filter>Source Files\jsoncpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp_algo.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig_algo.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpExcepcion.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpInterface.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpLog.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest_algo.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpResponse.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpServidor.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSession.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSitioStats.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpVersion.hpp">
+      <Filter>Source Files\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruSocket\GuruSocketServidor.hpp">
+      <Filter>Source Files\GuruSocket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

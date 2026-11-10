@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Librerias">
+      <UniqueIdentifier>{993971f2-5c33-402c-bd9b-9db69b0a402b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Librerias\GuruHttp">
+      <UniqueIdentifier>{1a38c9d0-d309-4346-9aba-3bb76a8fa5cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\atlas\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\GuruConfigLeer.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\GuruConfigV2.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\GuruSvc.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\GuruLog.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Librerias\jsoncpp\jsoncpp.cpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Librerias\GuruConfigLeer.h">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruConfigV2.h">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruSvc.h">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\Guruhttp_algo.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpCliente.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpClienteREST.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfig_algo.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpExcepcion.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpFunciones.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpInterface.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpLog.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpRequest_algo.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpResponse.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpServidor.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSession.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpSitioStats.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruBuffer_algo.hpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruVarEntorno.hpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruVariable.hpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruLog.h">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruLog.hpp">
+      <Filter>Source Files\Librerias</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpServidorJSON.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpREST.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Librerias\GuruHttp\GuruhttpConfigSite.hpp">
+      <Filter>Source Files\Librerias\GuruHttp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

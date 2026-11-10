@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atlas", "atlas.vcxproj", "{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "atlas-mini", "atlas-mini.vcxproj", "{F99F795B-92F6-4631-9834-A73CC133AE1B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Debug|Win32.Build.0 = Debug|Win32
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Debug|x64.ActiveCfg = Debug|x64
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Debug|x64.Build.0 = Debug|x64
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Release|Win32.ActiveCfg = Release|Win32
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Release|Win32.Build.0 = Release|Win32
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Release|x64.ActiveCfg = Release|x64
+		{56EA8FDC-5D3C-4A27-B33A-6E6559555F5B}.Release|x64.Build.0 = Release|x64
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Debug|Win32.Build.0 = Debug|Win32
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Debug|x64.ActiveCfg = Debug|x64
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Debug|x64.Build.0 = Debug|x64
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Release|Win32.ActiveCfg = Release|Win32
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Release|Win32.Build.0 = Release|Win32
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Release|x64.ActiveCfg = Release|x64
+		{F99F795B-92F6-4631-9834-A73CC133AE1B}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -38,16 +38,10 @@
 *.out
 *.app
 
-# Build directories
-build/
-Build/
-build-*/
-
 # CMake generated files
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
-Makefile
 install_manifest.txt
 compile_commands.json
 
@@ -75,3 +69,9 @@ www/*
 !www/root/index.html
 www-conf/*.conf
 !www-conf/root.conf
+
+# cache de compilacion
+!src/build/*
+!*.sln
+!*.user
+!*.vcxproj
