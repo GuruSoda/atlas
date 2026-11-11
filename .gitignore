@@ -71,7 +71,8 @@ www-conf/*.conf
 !www-conf/root.conf
 
 # cache de compilacion
-src/build/*
+src/build/*/*
+!*.filters
 !*.sln
 !*.user
 !*.vcxproj
